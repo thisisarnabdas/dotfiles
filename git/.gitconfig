@@ -1,0 +1,8 @@
+[user]
+	name = Arnab Das
+	email = this.is.arnab.das@gmail.com
+	signingkey = /home/das/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
