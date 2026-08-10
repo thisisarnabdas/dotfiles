@@ -1,0 +1,23 @@
+# Include all official syntax highlighting definitions
+include "/usr/share/nano/*.nanorc"
+
+# Interface Color Scheme
+set titlecolor brightwhite,blue    # Title bar (fg, bg)
+set statuscolor brightwhite,green  # Status bar at bottom
+set errorcolor brightwhite,red     # Error notifications
+set selectedcolor brightwhite,magenta # Highlighted text
+set numbercolor cyan               # Line numbers color
+set keycolor cyan                  # Shortcut key colors (^X, ^O)
+set functioncolor green            # Description of shortcut keys
+set stripecolor ,yellow            # Scroll bar/scrollbar position indicator
+
+# Modern UI Adjustments
+set linenumbers                   # Always show line numbers
+set indicator                     # Show a scrollbar indicator on the right
+set softwrap                      # Soft-wrap long lines visually without adding hard returns
+set atblanks                      # Soft-wrap at whitespace instead of mid-word
+
+# Tab & Indentation
+set tabsize 4                     # Set tab width to 4 spaces
+set tabstospaces                  # Convert tabs to spaces automatically
+set autoindent                    # Match indentation level of previous line
